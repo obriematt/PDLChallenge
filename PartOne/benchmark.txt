@@ -1,0 +1,5 @@
+Record send rate per second: 1386.89227304
+Incoming byte rate: 1799.52208501
+Total records sent per second: 1386.8922
+73047329763 lines parsed and sent to kafka in 6480.99394202 seconds
+1130.96279144 lines per second

@@ -1,0 +1,8 @@
+Answers to the questions:
+
+
+Question 1. From the raw_data gathered, the most tickets are issued during early spring months. In retrospect, the query should have been orderby the count and not the months. The two highest months are March and April, followed by December, then September and August. I would suggest that the season doesn't have much to do with it, but the possibility of schools being out. August/September colleges are starting, they're out for december, and then again during Spring Break or when colleges on semesters get out.
+
+Question 2. The question I wasn't particularly sure of how to answer. Given that the data for the states were the registration of the car. I went with counting the Violation County instead. The highest were 0019, 0018, 0014, and 0001. There was a lot of records without the Violation County listed though.
+
+Question 3. From the tickets that contained complete Make and Year, the Ford 2013 was the most common car to receive tickets. Again, there were a lot of incomplete records for the year of the car but that make was there.

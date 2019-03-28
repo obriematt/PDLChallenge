@@ -1,0 +1,7 @@
+I am very new to kafka, and data pipelines. This is actually the first one I've ever created, and the first time I've used Kafka or Zookeeper. So I'm not completely sure of how to optimize the pipeline. I’m also not entirely sure how slow or not my ingestion rate is comparatively. 
+
+Originally, I was inputting the data in the Kafka Topic "raw_data" as a csv row. I thought it might have been better to actually convert the data into a JSON object first. I understand that Part 1 was supposed to be in CSV but the overall data was easier to handle and the conversion was easier to do before the ingestion. With that though, I think to ignore that step and only convert the necessary data in part 2 would optimize the pipeline’s ingestion but it would make the data overall more difficult to interact with after it enters the Kafka server.
+
+I did read about trying to optimize the Producer.Send() but since it is thread safe, and the documentation suggested to not create more Producers, I stuck with that route. 
+
+I decided to try and tackle this challenge because I had never done anything like this before, and I wanted to try some new technology. Before I started this challenge, it had been a long time since I had coded in Python or even in a Linux environment. It was definitely quite the challenge for me, but it was exciting to learn new technologies again. 
